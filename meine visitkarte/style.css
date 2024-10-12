@@ -1,0 +1,48 @@
+
+html, body {
+
+    body {
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e7e5f1;
+    }
+    
+    .profile-container {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .profile-card {
+        text-align: center;
+    }
+    
+    .avatar {
+        image-orientation: center;
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        font-size: 34px;
+        margin: 10px 0;
+        color: #e30606;
+    }
+    
+    .description {
+        font-size: 20px;
+        color: #390998;
+    }
+    
+
+}
